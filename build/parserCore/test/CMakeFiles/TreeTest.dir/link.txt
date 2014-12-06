@@ -1,0 +1,1 @@
+/usr/bin/c++   -Wall -Wextra -Werror    CMakeFiles/TreeTest.dir/treeTest.cpp.o  -o TreeTest -rdynamic ../libParserCore.a ../../gmock/libgmock_main.a -lpthread 

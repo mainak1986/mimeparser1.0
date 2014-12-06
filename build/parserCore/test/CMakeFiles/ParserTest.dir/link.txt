@@ -1,0 +1,1 @@
+/usr/bin/c++   -Wall -Wextra -Werror    CMakeFiles/ParserTest.dir/parserTest.cpp.o  -o ParserTest -rdynamic ../libParserCore.a ../../gmock/libgmock_main.a -lpthread 

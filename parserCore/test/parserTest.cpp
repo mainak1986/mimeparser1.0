@@ -1,0 +1,70 @@
+#include <iostream>
+#include <fstream>
+#include <string>
+  using std::string;
+
+#include <gmock/gmock.h>
+  using ::testing::Eq;
+#include <gtest/gtest.h>
+  using ::testing::Test;
+
+#include "../parserException.h"
+#include "../parser.h"
+
+#define THIS_DIR "/home/mainak/Documents/Course_CzechRepublic/SecureCodingAndPractises_PA193/project/Project-Part2/MimeParser-master/parserCore/test"
+
+namespace testing
+{
+    class ParserTest : public Test
+    {
+    protected:
+        ParserTest(){}
+        ~ParserTest(){}
+
+        virtual void SetUp(){}
+        virtual void TearDown(){}
+    };
+
+void testPars(int from, int to)
+{
+      MimeParser parser;
+      char buffer[200];
+      for(int i=from; i<=to; ++i) {
+        snprintf(buffer, 200, "%s/good/m%04i.txt", THIS_DIR, i);
+        std::cout << "###############################" << std::endl
+          << buffer << std::endl << "###############################" << std::endl;
+        std::ifstream myfile(buffer);
+        if(myfile.is_open())
+        {
+          parser.parseInput(myfile);
+          parser.printTree(std::cout);
+          myfile.close();
+        } else
+        {
+          std::cout << "Failed to open file:" << buffer << "." << std::endl;
+          FAIL();
+        }
+      }
+
+}
+
+    TEST(good, GoodOne)
+    {
+      testPars(1,18);
+    }
+
+    TEST(good, GoodTwo)
+    {
+      testPars(1001,1016);
+    }
+
+    TEST(good, GoodThree)
+    {
+      testPars(2001, 2016);
+    }
+ 
+    TEST(good, GoodFour)
+    {
+      testPars(3001, 3004);
+    }
+}

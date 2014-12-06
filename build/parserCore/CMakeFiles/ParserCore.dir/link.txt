@@ -1,0 +1,2 @@
+/usr/bin/ar cr libParserCore.a  CMakeFiles/ParserCore.dir/parser.cpp.o CMakeFiles/ParserCore.dir/mimeTree.cpp.o
+/usr/bin/ranlib libParserCore.a

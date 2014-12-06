@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE coverity SYSTEM "config.dtd">
+<coverity>
+
+<metrics>
+    <metric>
+        <name>time</name>
+        <value>35</value>
+    </metric>
+    <metric>
+        <name>args</name>
+        <value>cov-build --dir cov-int</value>
+    </metric>
+    <metric>
+        <name>host</name>
+        <value>mainak-Vostro-3460</value>
+    </metric>
+    <metric>
+        <name>short-platform</name>
+        <value>linux</value>
+    </metric>
+    <metric>
+        <name>platform</name>
+        <value>Linux 3.13.0-39-generic i686</value>
+    </metric>
+    <metric>
+        <name>ident</name>
+        <value>7.5.0 (build b5b2c6e5a6 p-gilroy-push-19219.652)</value>
+    </metric>
+    <metric>
+        <name>user</name>
+        <value>mainak</value>
+    </metric>
+    <metric>
+        <name>cwd</name>
+        <value>/home/mainak/Documents/Course_CzechRepublic/SecureCodingAndPractises_PA193/project/Project-Part2/MimeParser-master/build</value>
+    </metric>
+    <metric>
+        <name>config</name>
+        <value>/home/mainak/Documents/cov-analysis-linux-7.5.0/config/coverity_config.xml</value>
+    </metric>
+    <metric>
+        <name>intermediatedir</name>
+        <value>/home/mainak/Documents/Course_CzechRepublic/SecureCodingAndPractises_PA193/project/Project-Part2/MimeParser-master/build/cov-int</value>
+    </metric>
+    <metric>
+        <name>outputdir</name>
+        <value>/home/mainak/Documents/Course_CzechRepublic/SecureCodingAndPractises_PA193/project/Project-Part2/MimeParser-master/build/cov-int/output</value>
+    </metric>
+    <metric>
+        <name>emitdir</name>
+        <value>/home/mainak/Documents/Course_CzechRepublic/SecureCodingAndPractises_PA193/project/Project-Part2/MimeParser-master/build/cov-int/emit</value>
+    </metric>
+    <metric>
+        <name>force</name>
+        <value>no</value>
+    </metric>
+    <metric>
+        <name>cygwin</name>
+        <value>no</value>
+    </metric>
+    <metric>
+        <name>failures</name>
+        <value>0</value>
+    </metric>
+    <metric>
+        <name>successes</name>
+        <value>10</value>
+    </metric>
+    <metric>
+        <name>uptodate</name>
+        <value>2</value>
+    </metric>
+    <metric>
+        <name>buildcmd</name>
+        <value>make</value>
+    </metric>
+</metrics>
+</coverity>

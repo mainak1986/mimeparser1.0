@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/mainak/Documents/Course_CzechRepublic/SecureCodingAndPractises_PA193/project/Project-Part2/MimeParser-master/parserCore/mimeTree.cpp
+mimeTree.h
+/home/mainak/Documents/Course_CzechRepublic/SecureCodingAndPractises_PA193/project/Project-Part2/MimeParser-master/parserCore/mimeTree.h
+parserException.h
+/home/mainak/Documents/Course_CzechRepublic/SecureCodingAndPractises_PA193/project/Project-Part2/MimeParser-master/parserCore/parserException.h
+
+/home/mainak/Documents/Course_CzechRepublic/SecureCodingAndPractises_PA193/project/Project-Part2/MimeParser-master/parserCore/mimeTree.h
+vector
+-
+string
+-
+ostream
+-
+
+/home/mainak/Documents/Course_CzechRepublic/SecureCodingAndPractises_PA193/project/Project-Part2/MimeParser-master/parserCore/parser.cpp
+parser.h
+/home/mainak/Documents/Course_CzechRepublic/SecureCodingAndPractises_PA193/project/Project-Part2/MimeParser-master/parserCore/parser.h
+parserException.h
+/home/mainak/Documents/Course_CzechRepublic/SecureCodingAndPractises_PA193/project/Project-Part2/MimeParser-master/parserCore/parserException.h
+iostream
+-
+stdexcept
+-
+algorithm
+-
+
+/home/mainak/Documents/Course_CzechRepublic/SecureCodingAndPractises_PA193/project/Project-Part2/MimeParser-master/parserCore/parser.h
+string
+-
+mimeTree.h
+/home/mainak/Documents/Course_CzechRepublic/SecureCodingAndPractises_PA193/project/Project-Part2/MimeParser-master/parserCore/mimeTree.h
+vector
+-
+
+/home/mainak/Documents/Course_CzechRepublic/SecureCodingAndPractises_PA193/project/Project-Part2/MimeParser-master/parserCore/parserException.h
+stdexcept
+-
+

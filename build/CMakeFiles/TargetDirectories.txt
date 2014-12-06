@@ -1,0 +1,8 @@
+/home/mainak/Documents/Course_CzechRepublic/SecureCodingAndPractises_PA193/project/Project-Part2/MimeParser-master/build/CMakeFiles/Parser.dir
+/home/mainak/Documents/Course_CzechRepublic/SecureCodingAndPractises_PA193/project/Project-Part2/MimeParser-master/build/parserCore/CMakeFiles/ParserCore.dir
+/home/mainak/Documents/Course_CzechRepublic/SecureCodingAndPractises_PA193/project/Project-Part2/MimeParser-master/build/parserCore/test/CMakeFiles/ParserTest.dir
+/home/mainak/Documents/Course_CzechRepublic/SecureCodingAndPractises_PA193/project/Project-Part2/MimeParser-master/build/parserCore/test/CMakeFiles/TreeTest.dir
+/home/mainak/Documents/Course_CzechRepublic/SecureCodingAndPractises_PA193/project/Project-Part2/MimeParser-master/build/gmock/CMakeFiles/gmock.dir
+/home/mainak/Documents/Course_CzechRepublic/SecureCodingAndPractises_PA193/project/Project-Part2/MimeParser-master/build/gmock/CMakeFiles/gmock_main.dir
+/home/mainak/Documents/Course_CzechRepublic/SecureCodingAndPractises_PA193/project/Project-Part2/MimeParser-master/build/gmock/gtest/CMakeFiles/gtest.dir
+/home/mainak/Documents/Course_CzechRepublic/SecureCodingAndPractises_PA193/project/Project-Part2/MimeParser-master/build/gmock/gtest/CMakeFiles/gtest_main.dir
